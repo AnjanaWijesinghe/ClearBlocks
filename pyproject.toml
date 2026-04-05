@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "clearblocks_anjana"
+version = "0.0.11"
+authors = [
+  { name="Anjana Wijesinghe", email="anjana1wijesinghe@gmail.com" },
+]
+description = "Boosting AI transparency by leveraging blockchain technology"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+  "torch>=2.10.0",
+  "tqdm",
+  "numpy"
+]
+
+[project.urls]
+Homepage = "https://github.com/AnjanaWijesinghe/ClearBlocks"
+Issues = "https://github.com/AnjanaWijesinghe/ClearBlocks/issues"
